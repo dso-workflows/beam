@@ -1,0 +1,14 @@
+name: DevSecOps
+
+on:
+  workflow_dispatch
+
+jobs:
+  devsecops:
+    name: DevSecOps
+    uses: io-onboard/synopsys-workflows/.github/workflows/devsecops.yml@main
+    with:
+      project-language: 'C++'
+#       project-name: 'MyProject'
+#       branch-name: 'MyBranch'
+    secrets: inherit
