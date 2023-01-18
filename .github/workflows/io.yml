@@ -8,7 +8,7 @@ jobs:
     name: DevSecOps
     uses: io-onboard/synopsys-workflows/.github/workflows/devsecops.yml@main
     with:
-      project-language: 'C++'
+      project-language: 'Java'
 #       project-name: 'MyProject'
 #       branch-name: 'MyBranch'
     secrets: inherit
